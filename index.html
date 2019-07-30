@@ -203,38 +203,61 @@
 
 		<main id="main" class="main" role="main">	
 		<article role="article" class="b-data"> 			
-			<div class="b-data__content" id="content">
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+			<div class="b-data__bg" style="background-image: url('https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/2017-07-24t143854z_1_170801-135034_ako.jpg?itok=KBM7V7sj');">
+	<span class="b-data__caption">
+		Foto Reuters
+	</span>
+</div>
+
+<header class="b-data__header">
+	<div class="row-main">
+		<h1 class="b-data__title">
+			<strong id="snfl-title-div">
+				<!--[[ZPRAVY_TITLE:]]-->
+			</strong>
+		</h1>
+
+		<script>
+			if (window.location.href.indexOf("www.irozhlas") < 0) {
+				document.getElementById("snfl-title-div").innerHTML = "Kalkulačka tropických dnů. Spočítejte si, kolikrát jste už zažili třicetistupňová horka ";
+			}
+		</script>
+
+		<p class="meta meta--lg">
+			<!--[[ZPRAVY_SNOWFALL_AUTHORS:]]-->
+			<span class="meta__separator">|</span>
+			<time>
+					<!--[[ZPRAVY_DATE_PUBLICATION: j. n. Y]]-->
+			</time>
+		</p>  
+
+		<p>
+			<a href="#content" class="b-data__link js-scroll-to">
+				Čtěte dále
+				<span class="b-data__link-icon">
+					<span class="icon-svg icon-svg--arrow-down">
+						<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+							<use xlink:href="/sites/all/themes/custom/irozhlas/img/bg/icons-svg.svg#icon-arrow-down" x="0" y="0" width="100%" height="100%"></use>
+						</svg>
+					</span>
+				</span>
+			</a>
+		</p>
+	</div>
+</header> 
+
+<div class="b-data__content" id="content">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://code.highcharts.com/highcharts.js"></script>
-<script src="https://code.highcharts.com/modules/annotations.js"></script>
 
-  <script type="text/javascript">
-    document.getElementsByTagName('article')[0].classList.add('b-data--no-img');
-  </script>
-  <style>ol.snowfall,ul.snowfall{list-style:initial!important;font-size:medium!important;line-height:1.5!important}ol.snowfall>li,ul.snowfall>li{background:0 0!important;margin:0!important;padding:0!important}hr.snowfall{max-width:none!important}.inputs{display:flex;justify-content:center;margin:10px 10px;flex-wrap:wrap}#inp-geocode{width:50%;min-width:240px;padding:5px 10px;box-sizing:border-box;border-radius:4px;border:1px solid;transition:border-color .15s ease-in-out;margin-bottom:5px}#inp-age{width:15%;min-width:100px;padding:5px 10px;box-sizing:border-box;border-radius:4px;border:1px solid;transition:border-color .15s ease-in-out;margin-left:10px}#inp-geocode:invalid{border-color:red}#inp-btn{margin-left:10px;padding:.375rem .75rem;color:#fff;background-color:#6c757d;border-color:#6c757d;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;border-style:none}#inp-btn:hover{color:#fff;background-color:#5a6268;border-color:#545b62}</style>
+	<style>ol.snowfall,ul.snowfall{list-style:initial!important;font-size:medium!important;line-height:1.5!important}ol.snowfall>li,ul.snowfall>li{background:0 0!important;margin:0!important;padding:0!important}hr.snowfall{max-width:none!important}.inputs{display:flex;justify-content:center;margin:10px 10px;flex-wrap:wrap}#inp-geocode{width:50%;min-width:240px;padding:5px 10px;box-sizing:border-box;border-radius:4px;border:1px solid;transition:border-color .15s ease-in-out;margin-bottom:5px}#inp-age{width:15%;min-width:100px;padding:5px 10px;box-sizing:border-box;border-radius:4px;border:1px solid;transition:border-color .15s ease-in-out;margin-left:10px}#inp-geocode:invalid{border-color:red}#inp-btn{margin-left:10px;padding:.375rem .75rem;color:#fff;background-color:#6c757d;border-color:#6c757d;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;border-style:none}#inp-btn:hover{color:#fff;background-color:#5a6268;border-color:#545b62}</style>
 
-  <div class="row-main row-main--article">
-    <h1 class="b-data__title b-data__title--sm" id="snfl-title-div">
-      <!--[[ZPRAVY_TITLE:]]-->
-    </h1>
-    <script>
-      if (window.location.href.indexOf("www.irozhlas") < 0) {
-        document.getElementById("snfl-title-div").innerHTML = "Tropických dní přibývá po celé republice. Podívejte se, jak je to u vás";
-      }
-    </script>
-  </div>
-
-  <div class="row-main row-main--narrow"> 
-    <p class="text-bold text-lg">
-      Podívejte se, jaké vedro máte na dvorku.
-    </p>
-  </div>
-
-  <!--[[ZPRAVY_SNOWFALL_METADATA:]]-->
-
-  <div class="row-main row-main--narrow">
-    
-    </div><div class="row-main row-main--article">
+	<div class="row-main row-main--narrow">
+		<p class="text-bold text-lg">
+			Meteorologové hlásí stále více tropických dnů, tedy těch, kdy maximální teplota přesáhne 30 stupňů Celsia.   Podle klimatologa Pavla Zahradníčka se jich v průměru vyskytuje kolem deseti ročně, ale brzy to může být i dvacet a ve městech až čtyřicet. Kolik takových horkých dnů jste zažili vy, vám pomůže zjistit kalkulačka, kterou připravil server iROZHLAS.cz.
+		</p>
+		<p><em>Zadejte místo, které vás zajímá, a případně i svůj věk. Aplikace vám následně ukáže počet <a href="https://cs.wikipedia.org/wiki/Tropick%C3%BD_den">tropických dní</a> od vašeho narození.</em></p>
+</div><div class="row-main row-main--article">
 <form action="?" id='frm-geocode'>
       <div class="inputs">
         <input type="text" id="inp-geocode" placeholder="Zadejte obec či adresu...">
@@ -244,11 +267,23 @@
     </form>
 <div id="graf"></div>
 </div><div class="row-main row-main--narrow">
-    <p class="meta meta--right meta--big">
-      <!--[[ZPRAVY_SNOWFALL_AUTHORS:FOOTER]]-->
-    </p>
-  </div>
-  <!--[[ZPRAVY_SNOWFALL_RELATED:ARTICLES]]-->
+
+<p><em>Aplikace pracuje s <a href="http://portal.chmi.cz/historicka-data/pocasi/denni-data">volně dostupnými daty</a> o počasí v Česku od roku 1961, konkrétně jde o záznamy z desítky stanic. Český hydrometeorologický ústav má celkem 802 stanic, z toho 38 plně profesionálních. Data z nich jsou ale <a href="https://www.irozhlas.cz/zpravy-domov/data-statni-spravy-otevrena-data-chmu_1809140600_hm">dostupná jen za úplatu</a>.</em></p>
+<p>„Letošní léto je zatím hodně nadprůměrné,“ uvádí Štefan Handžák z Českého hydrometeorologického ústavu. Poukazuje, že nadnormální jsou teploty ve dne i v noci. Například v noci na úterý byl průměr 15 až 19 stupňů Celsia. „Normální noční teploty jsou v tuto dobu 12 stupňů Celsia,“ říká Handžák.</p>
+<p>Podle něj „je velká pravděpodobnost“, že v příštím létě můžeme očekávat podobně horké dny. S tím souhlasí i jeho kolegyně klimatoložka Lenka Crhová. „Na území Česka lze do budoucna očekávat častější výskyty horkých dní a delší horké vlny. V příštích letech můžeme počítat s vyšší četností takhle teplých dní,“ uvádí.</p>
+<p>Konkrétnější je klimatolog Pavel Zahradníček z projektu InterSucho. „V průměru se vyskytuje okolo 8-10 tropických dnů za rok, ale v budoucnu se budeme dostávat nad hranici 20 dnů v průměru, ve velkých městech, kde je efekt zesílen ještě tepelným ostrovem, tak dokonce nad hranici 30-40 dnů za rok,“ předpovídá.</p>
+<h2 id="horko-jako-v-gruzii">Horko jako v Gruzii</h2>
+<p>Podle Zahradníčka jsme podobně horká léta už prožili. „Takové roky jsme si už mohli odzkoušet v letech 2015 a 2018, kdy počty tropických dnů byly dokonce vyšší, než předpokládají klimatické modely v nejpesimističtější variantě pro konec století,“ říká. Zároveň ale upozorňuje, že předpověď počasí je spolehlivá sedm dní dopředu. Je těžké tak nyní odhadnout, zda třeba příští léto bude stejně horké, nebo naopak nepřijde chladnější období.</p>
+<p>Zahraniční výzkumy ale varují, že letní teploty stále porostou. Ve většině světových metropolí se do roku 2050 oteplí tak, jako by se posunuly o 200 až 1000 kilometrů blíže subtropickému pásu. </p>
+<p>V Praze by měla být v roce 2050 průměrná roční teplota vyšší o 1,8 stupně Celsia, v nejchladnějším měsíci roku narůst o 2,8 stupně oproti dnešní době a v nejteplejším letním měsíci dokonce o 6,7 stupně Celsia. Vyplývá to z výsledků výzkumu zveřejněných serverem Sciencealert. <a href="https://www.irozhlas.cz/veda-technologie/priroda/zmena-klimatu-praha-tbilisi_1907221108_pj">Teplotní podmínky v Praze</a> tak budou srovnatelné s hlavním městem Tbilisi v Gruzii. </p>
+<p>Zdravotníci varují, že v horkých dnech hrozí přehřátí a dehydratace, proto je nezbytné dodržovat pitný režim, a to minimálně 1,5 litru denně. Pít by lidé měli především neslazené nealkoholické nápoje. Je třeba také omezit pohyb na přímém slunci a chránit pokožku před UV zářením.</p>
+
+
+		<p class="meta meta--right meta--big">
+			<!--[[ZPRAVY_SNOWFALL_AUTHORS:FOOTER]]-->
+		</p>
+	</div>
+	<!--[[ZPRAVY_SNOWFALL_RELATED:ARTICLES]]-->
 </div>
 <script>!function(t){var e={};function i(s){if(e[s])return e[s].exports;var n=e[s]={i:s,l:!1,exports:{}};return t[s].call(n.exports,n,n.exports,i),n.l=!0,n.exports}i.m=t,i.c=e,i.d=function(t,e,s){i.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:s})},i.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},i.t=function(t,e){if(1&e&&(t=i(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var s=Object.create(null);if(i.r(s),Object.defineProperty(s,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var n in t)i.d(s,n,function(e){return t[e]}.bind(null,n));return s},i.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return i.d(e,"a",e),e},i.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},i.p="",i(i.s=41)}([function(t,e,i){"use strict";var s=i(6),n=Object.keys||function(t){var e=[];for(var i in t)e.push(i);return e};t.exports=l;var r=i(3);r.inherits=i(2);var a=i(17),o=i(10);r.inherits(l,a);for(var h=n(o.prototype),u=0;u<h.length;u++){var c=h[u];l.prototype[c]||(l.prototype[c]=o.prototype[c])}function l(t){if(!(this instanceof l))return new l(t);a.call(this,t),o.call(this,t),t&&!1===t.readable&&(this.readable=!1),t&&!1===t.writable&&(this.writable=!1),this.allowHalfOpen=!0,t&&!1===t.allowHalfOpen&&(this.allowHalfOpen=!1),this.once("end",f)}function f(){this.allowHalfOpen||this._writableState.ended||s.nextTick(p,this)}function p(t){t.end()}Object.defineProperty(l.prototype,"writableHighWaterMark",{enumerable:!1,get:function(){return this._writableState.highWaterMark}}),Object.defineProperty(l.prototype,"destroyed",{get:function(){return void 0!==this._readableState&&void 0!==this._writableState&&(this._readableState.destroyed&&this._writableState.destroyed)},set:function(t){void 0!==this._readableState&&void 0!==this._writableState&&(this._readableState.destroyed=t,this._writableState.destroyed=t)}}),l.prototype._destroy=function(t,e){this.push(null),this.end(),s.nextTick(e,t)}},function(t,e){var i;i=function(){return this}();try{i=i||new Function("return this")()}catch(t){"object"==typeof window&&(i=window)}t.exports=i},function(t,e){"function"==typeof Object.create?t.exports=function(t,e){e&&(t.super_=e,t.prototype=Object.create(e.prototype,{constructor:{value:t,enumerable:!1,writable:!0,configurable:!0}}))}:t.exports=function(t,e){if(e){t.super_=e;var i=function(){};i.prototype=e.prototype,t.prototype=new i,t.prototype.constructor=t}}},function(t,e,i){(function(t){function i(t){return Object.prototype.toString.call(t)}e.isArray=function(t){return Array.isArray?Array.isArray(t):"[object Array]"===i(t)},e.isBoolean=function(t){return"boolean"==typeof t},e.isNull=function(t){return null===t},e.isNullOrUndefined=function(t){return null==t},e.isNumber=function(t){return"number"==typeof t},e.isString=function(t){return"string"==typeof t},e.isSymbol=function(t){return"symbol"==typeof t},e.isUndefined=function(t){return void 0===t},e.isRegExp=function(t){return"[object RegExp]"===i(t)},e.isObject=function(t){return"object"==typeof t&&null!==t},e.isDate=function(t){return"[object Date]"===i(t)},e.isError=function(t){return"[object Error]"===i(t)||t instanceof Error},e.isFunction=function(t){return"function"==typeof t},e.isPrimitive=function(t){return null===t||"boolean"==typeof t||"number"==typeof t||"string"==typeof t||"symbol"==typeof t||void 0===t},e.isBuffer=t.isBuffer}).call(this,i(4).Buffer)},function(t,e,i){"use strict";(function(t){
 /*!

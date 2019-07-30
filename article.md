@@ -1,12 +1,13 @@
-title: "Tropických dní přibývá po celé republice. Podívejte se, jak je to u vás"
-perex: "Podívejte se, jaké vedro máte na dvorku."
-coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
-coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
+title: "Kalkulačka tropických dnů. Spočítejte si, kolikrát jste už zažili třicetistupňová horka "
+perex: "Meteorologové hlásí stále více tropických dnů, tedy těch, kdy maximální teplota přesáhne 30 stupňů Celsia.   Podle klimatologa Pavla Zahradníčka se jich v průměru vyskytuje kolem deseti ročně, ale brzy to může být i dvacet a ve městech až čtyřicet. Kolik takových horkých dnů jste zažili vy, vám pomůže zjistit kalkulačka, kterou připravil server iROZHLAS.cz."
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/2017-07-24t143854z_1_170801-135034_ako.jpg?itok=KBM7V7sj
+coverimg_note: "Foto Reuters"
 styles: []
-libraries: [jquery, highcharts, 'https://code.highcharts.com/modules/annotations.js'] #jquery, d3, highcharts, datatables
-options: [noheader, nopic] #wide, noheader (, nopic)
+libraries: [jquery, highcharts] #jquery, d3, highcharts, datatables
+options: [] #wide, noheader (, nopic)
 ---
 
+_Zadejte místo, které vás zajímá, a případně i svůj věk. Aplikace vám následně ukáže počet [tropických dní](https://cs.wikipedia.org/wiki/Tropick%C3%BD_den) od vašeho narození._
 
 <wide>
 <form action="?" id='frm-geocode'>
@@ -18,3 +19,21 @@ options: [noheader, nopic] #wide, noheader (, nopic)
 	</form>
 <div id="graf"></div>
 </wide>
+
+_Aplikace pracuje s [volně dostupnými daty](http://portal.chmi.cz/historicka-data/pocasi/denni-data) o počasí v Česku od roku 1961, konkrétně jde o záznamy z desítky stanic. Český hydrometeorologický ústav má celkem 802 stanic, z toho 38 plně profesionálních. Data z nich jsou ale [dostupná jen za úplatu](https://www.irozhlas.cz/zpravy-domov/data-statni-spravy-otevrena-data-chmu_1809140600_hm)._
+
+„Letošní léto je zatím hodně nadprůměrné,“ uvádí Štefan Handžák z Českého hydrometeorologického ústavu. Poukazuje, že nadnormální jsou teploty ve dne i v noci. Například v noci na úterý byl průměr 15 až 19 stupňů Celsia. „Normální noční teploty jsou v tuto dobu 12 stupňů Celsia," říká Handžák.
+
+Podle něj „je velká pravděpodobnost“, že v příštím létě můžeme očekávat podobně horké dny. S tím souhlasí i jeho kolegyně klimatoložka Lenka Crhová. „Na území Česka lze do budoucna očekávat častější výskyty horkých dní a delší horké vlny. V příštích letech můžeme počítat s vyšší četností takhle teplých dní,“ uvádí.
+
+Konkrétnější je klimatolog Pavel Zahradníček z projektu InterSucho. „V průměru se vyskytuje okolo 8-10 tropických dnů za rok, ale v budoucnu se budeme dostávat nad hranici 20 dnů v průměru, ve velkých městech, kde je efekt zesílen ještě tepelným ostrovem, tak dokonce nad hranici 30-40 dnů za rok,“ předpovídá.
+
+## Horko jako v Gruzii
+
+Podle Zahradníčka jsme podobně horká léta už prožili. „Takové roky jsme si už mohli odzkoušet v letech 2015 a 2018, kdy počty tropických dnů byly dokonce vyšší, než předpokládají klimatické modely v nejpesimističtější variantě pro konec století,“ říká. Zároveň ale upozorňuje, že předpověď počasí je spolehlivá sedm dní dopředu. Je těžké tak nyní odhadnout, zda třeba příští léto bude stejně horké, nebo naopak nepřijde chladnější období.
+
+Zahraniční výzkumy ale varují, že letní teploty stále porostou. Ve většině světových metropolí se do roku 2050 oteplí tak, jako by se posunuly o 200 až 1000 kilometrů blíže subtropickému pásu. 
+
+V Praze by měla být v roce 2050 průměrná roční teplota vyšší o 1,8 stupně Celsia, v nejchladnějším měsíci roku narůst o 2,8 stupně oproti dnešní době a v nejteplejším letním měsíci dokonce o 6,7 stupně Celsia. Vyplývá to z výsledků výzkumu zveřejněných serverem Sciencealert. [Teplotní podmínky v Praze](https://www.irozhlas.cz/veda-technologie/priroda/zmena-klimatu-praha-tbilisi_1907221108_pj) tak budou srovnatelné s hlavním městem Tbilisi v Gruzii. 
+
+Zdravotníci varují, že v horkých dnech hrozí přehřátí a dehydratace, proto je nezbytné dodržovat pitný režim, a to minimálně 1,5 litru denně. Pít by lidé měli především neslazené nealkoholické nápoje. Je třeba také omezit pohyb na přímém slunci a chránit pokožku před UV zářením.
