@@ -26,6 +26,8 @@
     "marked": "^0.6.3",
     "node-yaml": "^3.2.0",
     "proj4": "^2.5.0",
-    "webpack": "^4.36.0"
+    "regression": "^2.0.1",
+    "webpack": "^4.36.0",
+    "xml-js": "^1.6.11"
   }
 }

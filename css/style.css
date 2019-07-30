@@ -2,16 +2,29 @@
     display: flex;
     justify-content: center;
     margin: 10px 10px;
+    flex-wrap: wrap;
 }
 
 #inp-geocode {
     width: 50%;
     min-width: 240px;
-    padding: 12px 20px;
+    padding: 5px 10px;
     box-sizing: border-box;
     border-radius: 4px;
     border: 1px solid;
     transition: border-color .15s ease-in-out;
+    margin-bottom: 5px;
+}
+
+#inp-age {
+    width: 15%;
+    min-width: 100px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid;
+    transition: border-color .15s ease-in-out;
+    margin-left: 10px;
 }
 
 #inp-geocode:invalid {
