@@ -20,9 +20,15 @@ _Zadejte místo, které vás zajímá, a případně i svůj věk. Aplikace vám
 <div id="graf"></div>
 </wide>
 
-_Aplikace pracuje s [volně dostupnými daty](http://portal.chmi.cz/historicka-data/pocasi/denni-data) o počasí v Česku od roku 1961, konkrétně jde o záznamy z desítky stanic. Český hydrometeorologický ústav má celkem 802 stanic, z toho 38 plně profesionálních. Data z nich jsou ale [dostupná jen za úplatu](https://www.irozhlas.cz/zpravy-domov/data-statni-spravy-otevrena-data-chmu_1809140600_hm)._
-
 „Letošní léto je zatím hodně nadprůměrné,“ uvádí Štefan Handžák z Českého hydrometeorologického ústavu. Poukazuje, že nadnormální jsou teploty ve dne i v noci. Například v noci na úterý byl průměr 15 až 19 stupňů Celsia. „Normální noční teploty jsou v tuto dobu 12 stupňů Celsia," říká Handžák.
+
+<left>
+<h3>Počasí není zadarmo</h3>
+<p>Aplikace pracuje s <a href="http://portal.chmi.cz/historicka-data/pocasi/denni-data">volně dostupnými daty</a> o počasí v Česku od roku 1961, konkrétně jde o záznamy z deseti stanic.</p> 
+
+<p>Český hydrometeorologický ústav má celkem 802 stanic, z toho 38 plně profesionálních. Data z nich jsou ale <a href="https://www.irozhlas.cz/zpravy-domov/data-statni-spravy-otevrena-data-chmu_1809140600_hm">dostupná jen za úplatu</a>.</p>
+<p><a href="http://portal.chmi.cz/historicka-data/pocasi/denni-data"><img style="width: 100%;" src="https://www.irozhlas.cz/sites/default/files/uploader_unmanaged/chmi_free_190730-174854_cib.jpg"></a></p>
+</left>
 
 Podle něj „je velká pravděpodobnost“, že v příštím létě můžeme očekávat podobně horké dny. S tím souhlasí i jeho kolegyně klimatoložka Lenka Crhová. „Na území Česka lze do budoucna očekávat častější výskyty horkých dní a delší horké vlny. V příštích letech můžeme počítat s vyšší četností takhle teplých dní,“ uvádí.
 
