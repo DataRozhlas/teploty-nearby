@@ -23,6 +23,16 @@ function findNearby([y, x]) {
   return [Object.keys(stations)[dists.indexOf(Math.min(...dists))], Math.min(...dists)]; // id nejbližší stanice
 }
 
+function poctyCesky(val) {
+  if (val === 1) {
+    return ' tropický den';
+  } else if ( val > 1 & val < 5 ) {
+    return ' tropické dny';
+  } else {
+    return ' tropických dní';
+  }
+}
+
 function drawChart([statID, dist], age) {
   let toReg = [];
   Object.values(maxtemps[statID]).forEach((v, i) => toReg.push([i, v]));
@@ -44,7 +54,7 @@ function drawChart([statID, dist], age) {
       text: 'data ČHMÚ'
     },
     title: {
-        text: arrSum(postData) + ' tropických dní dny na stanici ' + stations[statID][0] + ' od roku ' + (2019 - age)
+        text: arrSum(postData) + poctyCesky(arrSum(postData)) + ' na stanici ' + stations[statID][0] + ' od roku ' + (2019 - age)
     },
     subtitle: {
         text: 'od vaší lokality ' + document.getElementById("inp-geocode").value + ' je to '
@@ -63,7 +73,7 @@ function drawChart([statID, dist], age) {
     },
     tooltip: {
         headerFormat: '<span style="font-size:12px">rok {point.key}</span><table>',
-        pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+        pointFormat: '<tr><td style="color:{series.color};padding:0">tropické dny: </td>' +
             '<td style="padding:0"><b>{point.y:.0f}</b></td></tr>',
         footerFormat: '</table>',
         shared: true,
