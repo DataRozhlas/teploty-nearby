@@ -20,7 +20,7 @@ _Zadejte místo, které vás zajímá, a případně i svůj věk. Aplikace vám
 <div id="graf"></div>
 </wide>
 
-„Letošní léto je zatím hodně nadprůměrné,“ uvádí Štefan Handžák z Českého hydrometeorologického ústavu. Poukazuje, že nadnormální jsou teploty ve dne i v noci. Například v noci na úterý byl průměr 15 až 19 stupňů Celsia. „Normální noční teploty jsou v tuto dobu 12 stupňů Celsia," říká Handžák.
+„Letošní léto je zatím hodně nadprůměrné,“ říká pro server iROZHLAS.cz Štefan Handžák z Českého hydrometeorologického ústavu. Poukazuje, že nadnormální jsou teploty ve dne i v noci. Například v noci na úterý 30. července byl průměr 15 až 19 °C. „Normální noční teploty jsou v tuto dobu 12 stupňů Celsia," vysvětluje Handžák.
 
 <left>
 <h3>Počasí není zadarmo</h3>
@@ -32,14 +32,14 @@ _Zadejte místo, které vás zajímá, a případně i svůj věk. Aplikace vám
 
 Podle něj „je velká pravděpodobnost“, že v příštím létě můžeme očekávat podobně horké dny. S tím souhlasí i jeho kolegyně klimatoložka Lenka Crhová. „Na území Česka lze do budoucna očekávat častější výskyty horkých dní a delší horké vlny. V příštích letech můžeme počítat s vyšší četností takhle teplých dní,“ uvádí.
 
-Konkrétnější je klimatolog Pavel Zahradníček z projektu InterSucho. „V průměru se vyskytuje okolo 8-10 tropických dnů za rok, ale v budoucnu se budeme dostávat nad hranici 20 dnů v průměru, ve velkých městech, kde je efekt zesílen ještě tepelným ostrovem, tak dokonce nad hranici 30-40 dnů za rok,“ předpovídá.
+Konkrétnější je klimatolog Pavel Zahradníček z projektu InterSucho. „V průměru se vyskytuje okolo osmi až deseti tropických dnů za rok, ale v budoucnu se budeme dostávat nad hranici 20 dnů v průměru. Ve velkých městech, kde je efekt zesílen ještě tepelným ostrovem, dokonce nad hranici 30 až 40 dnů za rok,“ předpovídá.
 
 ## Horko jako v Gruzii
 
-Podle Zahradníčka jsme podobně horká léta už prožili. „Takové roky jsme si už mohli odzkoušet v letech 2015 a 2018, kdy počty tropických dnů byly dokonce vyšší, než předpokládají klimatické modely v nejpesimističtější variantě pro konec století,“ říká. Zároveň ale upozorňuje, že předpověď počasí je spolehlivá sedm dní dopředu. Je těžké tak nyní odhadnout, zda třeba příští léto bude stejně horké, nebo naopak nepřijde chladnější období.
+Podle Zahradníčka jsme podobně horká léta už prožili. „Takové roky jsme si už mohli odzkoušet v letech 2015 a 2018, kdy počty tropických dnů byly dokonce vyšší, než předpokládají klimatické modely v nejpesimističtější variantě pro konec století,“ přibližuje. Zároveň ale upozorňuje, že předpověď počasí je spolehlivá sedm dní dopředu. Je těžké tak nyní odhadnout, zda třeba příští léto bude stejně horké, nebo naopak nepřijde chladnější období.
 
-Zahraniční výzkumy ale varují, že letní teploty stále porostou. Ve většině světových metropolí se do roku 2050 oteplí tak, jako by se posunuly o 200 až 1000 kilometrů blíže subtropickému pásu. 
+Zahraniční výzkumy nicméně varují, že letní teploty stále porostou. Ve většině světových metropolí se do roku 2050 oteplí tak, jako by se posunuly o 200 až 1000 kilometrů blíže subtropickému pásu. 
 
-V Praze by měla být v roce 2050 průměrná roční teplota vyšší o 1,8 stupně Celsia, v nejchladnějším měsíci roku narůst o 2,8 stupně oproti dnešní době a v nejteplejším letním měsíci dokonce o 6,7 stupně Celsia. Vyplývá to z výsledků výzkumu zveřejněných serverem Sciencealert. [Teplotní podmínky v Praze](https://www.irozhlas.cz/veda-technologie/priroda/zmena-klimatu-praha-tbilisi_1907221108_pj) tak budou srovnatelné s hlavním městem Tbilisi v Gruzii. 
+V Praze by měla být v roce 2050 průměrná roční teplota vyšší o 1,8 stupně Celsia, v nejchladnějším měsíci roku narůst o 2,8 stupně oproti současnosti a v nejteplejším letním měsíci dokonce o 6,7 stupně Celsia. Vyplývá to z výsledků výzkumu zveřejněných serverem Sciencealert. [Teplotní podmínky v Praze](https://www.irozhlas.cz/veda-technologie/priroda/zmena-klimatu-praha-tbilisi_1907221108_pj) tak budou srovnatelné s gruzínskou metropolí Tbilisi. 
 
 Zdravotníci varují, že v horkých dnech hrozí přehřátí a dehydratace, proto je nezbytné dodržovat pitný režim, a to minimálně 1,5 litru denně. Pít by lidé měli především neslazené nealkoholické nápoje. Je třeba také omezit pohyb na přímém slunci a chránit pokožku před UV zářením.
