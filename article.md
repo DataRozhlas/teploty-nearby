@@ -1,6 +1,6 @@
 title: "Kalkulačka tropických dnů. Spočítejte si, kolikrát jste už zažili třicetistupňová horka "
 perex: "Meteorologové hlásí stále více tropických dnů, tedy těch, kdy maximální teplota přesáhne 30 stupňů Celsia.   Podle klimatologa Pavla Zahradníčka se jich v průměru vyskytuje kolem deseti ročně, ale brzy to může být i dvacet a ve městech až čtyřicet. Kolik takových horkých dnů jste zažili vy, vám pomůže zjistit kalkulačka, kterou připravil server iROZHLAS.cz."
-coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/2017-07-24t143854z_1_170801-135034_ako.jpg?itok=KBM7V7sj
+coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/teplotaklikacky_190731-111040_cib.png?itok=-irTMr3v
 coverimg_note: "Foto Reuters"
 styles: []
 libraries: [jquery, highcharts] #jquery, d3, highcharts, datatables
