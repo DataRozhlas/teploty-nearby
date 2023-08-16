@@ -159,21 +159,22 @@ form.onsubmit = function submitForm(event) {
     $("#inp-geocode").css("border-color", "red");
     return;
   } else {
-    let xmlHttp = new XMLHttpRequest();
-    xmlHttp.open("GET", `https://api.mapy.cz/geocode?query=${text}`, false);
-    xmlHttp.send(null);
-    let d = xmlConv.xml2js(xmlHttp.responseText, {ignoreComment: true, alwaysChildren: true});
-    if (typeof d.elements[0].elements[0].elements[0] === "undefined") {
-      $("#inp-geocode").css("border-color", "red");
-      return;
-    }
-    const x = parseFloat(d.elements[0].elements[0].elements[0].attributes.x);
-    const y = parseFloat(d.elements[0].elements[0].elements[0].attributes.y);
-    if (x < 12 || x > 19 || y < 48 || y > 52) { // omezení geosearche na Česko, plus mínus
-      $("#inp-geocode").css("border-color", "red");
-      return;
-    }
-    let closestID = findNearby([y, x]);
-    drawChart(closestID, age);
+    fetch(`https://nominatim.openstreetmap.org/search.php?q=${text},česko&accept-language=cs-CZ&polygon_geojson=0&format=jsonv2`) // Nominatim geocoder
+    .then((str) => str.json())
+    .then((res) => {
+      if (res.length == 0) {
+        $("#inp-geocode").css("border-color", "red");
+        return;
+      }
+      const x = parseFloat(res[0].lon);
+      const y = parseFloat(res[0].lat);
+
+      if (x < 12 || x > 19 || y < 48 || y > 52) { // omezení geosearche na Česko, plus mínus
+        $("#inp-geocode").css("border-color", "red");
+        return;
+      }
+      let closestID = findNearby([y, x]);
+      drawChart(closestID, age);
+    })
   }
 };
