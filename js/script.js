@@ -54,7 +54,7 @@ function drawChart([statID, dist], age) {
       text: 'data ČHMÚ'
     },
     title: {
-        text: arrSum(postData) + poctyCesky(arrSum(postData)) + ' na stanici ' + stations[statID][0] + ' od roku ' + (2019 - age)
+        text: arrSum(postData) + poctyCesky(arrSum(postData)) + ' na stanici ' + stations[statID][0] + ' od roku ' + (2022 - age)
     },
     subtitle: {
         text: 'od vaší lokality ' + document.getElementById("inp-geocode").value + ' je to '
