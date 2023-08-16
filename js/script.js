@@ -50,7 +50,7 @@ function drawChart([statID, dist], age) {
 
   Highcharts.chart('graf', {
     credits: {
-      href: 'http://portal.chmi.cz/historicka-data/pocasi/denni-data',
+      href: 'https://www.chmi.cz/historicka-data/pocasi/denni-data/Denni-data-dle-z.-123-1998-Sb',
       text: 'data ČHMÚ'
     },
     title: {
@@ -59,7 +59,7 @@ function drawChart([statID, dist], age) {
     subtitle: {
         text: 'od vaší lokality ' + document.getElementById("inp-geocode").value + ' je to '
         + Math.round(dist / 1000)
-        + ' km <br><a style="font-style: italic;" target="_blank" href="https://www.irozhlas.cz/zpravy-domov/data-statni-spravy-otevrena-data-chmu_1809140600_hm">Proč tu není bližší stanice?</a></i>'
+        + ' km'
     },
     xAxis: {
         categories: Object.keys(maxtemps[statID]),
